@@ -1,0 +1,18 @@
+{
+    "version": "0.3.1",
+    "description": "Generate SBOMs, aggregate vulnerability findings, and plan remediation",
+    "homepage": "https://sbomsentinel.com",
+    "license": "Apache-2.0",
+    "depends": [
+        "grype",
+        "syft",
+        "trivy"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cloudengine-labs/scoop-bucket/releases/download/v0.3.1/sbom-sentinel-0.3.1-x86_64-pc-windows-msvc.zip",
+            "hash": "fb8596297eebb714f8a3ef881a3d4b95f56f0a99df83a6eff9d7d2b1b1818ffc"
+        }
+    },
+    "bin": "sbom-sentinel.exe"
+}
