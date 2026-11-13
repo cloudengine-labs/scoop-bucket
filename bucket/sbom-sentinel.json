@@ -1,5 +1,5 @@
 {
-    "version": "0.3.1",
+    "version": "0.4.0",
     "description": "Generate SBOMs, aggregate vulnerability findings, and plan remediation",
     "homepage": "https://sbomsentinel.com",
     "license": "Apache-2.0",
@@ -10,8 +10,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudengine-labs/scoop-bucket/releases/download/v0.3.1/sbom-sentinel-0.3.1-x86_64-pc-windows-msvc.zip",
-            "hash": "fb8596297eebb714f8a3ef881a3d4b95f56f0a99df83a6eff9d7d2b1b1818ffc"
+            "url": "https://github.com/cloudengine-labs/scoop-bucket/releases/download/v0.4.0/sbom-sentinel-0.4.0-x86_64-pc-windows-msvc.zip",
+            "hash": "30fde84e36ac89f7367c021c27e7980f7b99dbe1dd78309fc5738e5652da0934"
         }
     },
     "bin": "sbom-sentinel.exe"
